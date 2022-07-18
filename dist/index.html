@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@500&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/5e43348ada.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="output.css">
+    </head>
+    <body class="w-full h-[100vh] bg-[#f8e9dd] py-[50px] px-[30px] flex items-center justify-center">
+        <section class="w-full md:w-[400px]">
+            <h1 class="mb-5 text-center text-[25px] font-over bg-rose-400 p-4 rounded-xl shadow-md">Emoji Rating component</h1>
+            <div class="w-full bg-white p-10 rounded-xl shadow-lg">
+                <div id="emoji-cont" class="h-[50px] mb-[40px] flex items-center justify-center">
+                    <i id="failure" class="fa-solid fa-face-angry emoji text-[50px] text-red-600 hidden"></i>
+                    <i id="bad" class="fa-solid fa-face-frown emoji text-[50px] text-yellow-600 hidden"></i>
+                    <i id="okay" class="fa-solid fa-face-smile-beam emoji text-[50px] text-yellow-400 hidden"></i>
+                    <i id="good" class="fa-solid fa-face-grin-beam emoji text-[50px] text-lime-400 hidden"></i>
+                    <i id="excellent" class="fa-solid fa-face-laugh-wink emoji text-[50px] text-lime-500 hidden"></i>
+                </div>
+                <div id="star-cont" class="flex items-center justify-between">
+                    <i id="star1" class="green fa-solid fa-star star text-[32px] text-slate-300 cursor-pointer"></i>
+                    <i id="star2" class="fa-solid fa-star star text-[32px] text-slate-300 cursor-pointer"></i>
+                    <i id="star3" class="fa-solid fa-star star text-[32px] text-slate-300 cursor-pointer"></i>
+                    <i id="star4" class="fa-solid fa-star star text-[32px] text-slate-300 cursor-pointer"></i>
+                    <i id="star5" class="fa-solid fa-star star text-[32px] text-slate-300 cursor-pointer"></i>
+                </div>
+            </div>
+        </section>
+        <script src="script.js" async defer></script>
+    </body>
+</html>
